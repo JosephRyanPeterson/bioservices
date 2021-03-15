@@ -1394,7 +1394,7 @@ class KEGGParser(object):
                 value = re.sub("\n {6,20}", " ", value)
                 for line in value.split("\n"):
                     thiskey, content = line.split(":", 1)
-                    print(thiskey, content)
+                    #print(thiskey, content)
                     new[thiskey] = content
                     #if thiskey.endswith(":"):
                     #    new[thiskey[:-1]] = content
